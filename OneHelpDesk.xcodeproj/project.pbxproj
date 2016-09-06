@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FCE56EE1D6D9C5600771616 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE56E61D6D9C5600771616 /* MMDrawerBarButtonItem.m */; };
+		7FCE56EF1D6D9C5600771616 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE56E91D6D9C5600771616 /* MMDrawerController.m */; };
+		7FCE56F01D6D9C5600771616 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE56EB1D6D9C5600771616 /* MMDrawerVisualState.m */; };
+		7FCE56F11D6D9C5600771616 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE56ED1D6D9C5600771616 /* UIViewController+MMDrawerController.m */; };
+		B620CBE51D65B38A00A321E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B620CBE41D65B38A00A321E8 /* LaunchScreen.xib */; };
+		B6612A131D646DAC0044D0F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6612A121D646DAC0044D0F0 /* main.m */; };
+		B6612A161D646DAC0044D0F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6612A151D646DAC0044D0F0 /* AppDelegate.m */; };
+		B6612A1E1D646DAD0044D0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6612A1D1D646DAD0044D0F0 /* Assets.xcassets */; };
+		B6612A2C1D646DAD0044D0F0 /* OneHelpDeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6612A2B1D646DAD0044D0F0 /* OneHelpDeskTests.m */; };
+		B6612A371D646DAD0044D0F0 /* OneHelpDeskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6612A361D646DAD0044D0F0 /* OneHelpDeskUITests.m */; };
+		B6612A471D6474E20044D0F0 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6612A451D6474E20044D0F0 /* HomeScreenViewController.m */; };
+		B6612A481D6474E20044D0F0 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6612A461D6474E20044D0F0 /* HomeScreenViewController.xib */; };
+		B67760BC1D6AE8850029E3BB /* PhoneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67760BA1D6AE8850029E3BB /* PhoneTableViewController.m */; };
+		B67760BD1D6AE8850029E3BB /* PhoneTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67760BB1D6AE8850029E3BB /* PhoneTableViewController.xib */; };
+		B67760C21D6B34420029E3BB /* HelpDeskNumber_SampleJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = B67760C11D6B34420029E3BB /* HelpDeskNumber_SampleJSON.txt */; };
+		B67A4D1C1D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D131D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk_text.png */; };
+		B67A4D1D1D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D141D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk.png */; };
+		B67A4D1E1D65A0BC007F575F /* APP-1_helpdesk-icon_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D151D65A0BC007F575F /* APP-1_helpdesk-icon_alert.png */; };
+		B67A4D1F1D65A0BC007F575F /* APP-1_helpdesk-icon_phone_act.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D161D65A0BC007F575F /* APP-1_helpdesk-icon_phone_act.png */; };
+		B67A4D201D65A0BC007F575F /* APP-1_helpdesk-icon_phone_dis.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D171D65A0BC007F575F /* APP-1_helpdesk-icon_phone_dis.png */; };
+		B67A4D211D65A0BC007F575F /* APP-1_helpdesk-icon_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D181D65A0BC007F575F /* APP-1_helpdesk-icon_settings.png */; };
+		B67A4D221D65A0BC007F575F /* APP-1_helpdesk-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D191D65A0BC007F575F /* APP-1_helpdesk-logo.png */; };
+		B67A4D231D65A0BC007F575F /* APP-1_helpdesk-splash_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D1A1D65A0BC007F575F /* APP-1_helpdesk-splash_640x1136.png */; };
+		B67A4D241D65A0BC007F575F /* APP-1_helpdesk-splash_1136x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = B67A4D1B1D65A0BC007F575F /* APP-1_helpdesk-splash_1136x1136.png */; };
+		B68479001D6705A5000FFBDA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68478FE1D6705A5000FFBDA /* SettingsViewController.m */; };
+		B68479011D6705A5000FFBDA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68478FF1D6705A5000FFBDA /* SettingsViewController.xib */; };
+		B6BF8EC51D65D27F00AF67EE /* DirectDialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF8EC31D65D27F00AF67EE /* DirectDialViewController.m */; };
+		B6BF8EC61D65D27F00AF67EE /* DirectDialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BF8EC41D65D27F00AF67EE /* DirectDialViewController.xib */; };
+		B6BF8EC81D65E26A00AF67EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BF8EC71D65E26A00AF67EE /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6612A281D646DAD0044D0F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6612A061D646DAC0044D0F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6612A0D1D646DAC0044D0F0;
+			remoteInfo = OneHelpDesk;
+		};
+		B6612A331D646DAD0044D0F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6612A061D646DAC0044D0F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6612A0D1D646DAC0044D0F0;
+			remoteInfo = OneHelpDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FCE56E51D6D9C5600771616 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		7FCE56E61D6D9C5600771616 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		7FCE56E71D6D9C5600771616 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		7FCE56E81D6D9C5600771616 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		7FCE56E91D6D9C5600771616 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		7FCE56EA1D6D9C5600771616 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		7FCE56EB1D6D9C5600771616 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		7FCE56EC1D6D9C5600771616 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		7FCE56ED1D6D9C5600771616 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		B620CBE41D65B38A00A321E8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		B6612A0E1D646DAC0044D0F0 /* OneHelpDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneHelpDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6612A121D646DAC0044D0F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6612A141D646DAC0044D0F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6612A151D646DAC0044D0F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6612A1D1D646DAD0044D0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6612A221D646DAD0044D0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6612A271D646DAD0044D0F0 /* OneHelpDeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHelpDeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6612A2B1D646DAD0044D0F0 /* OneHelpDeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneHelpDeskTests.m; sourceTree = "<group>"; };
+		B6612A2D1D646DAD0044D0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6612A321D646DAD0044D0F0 /* OneHelpDeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHelpDeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6612A361D646DAD0044D0F0 /* OneHelpDeskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneHelpDeskUITests.m; sourceTree = "<group>"; };
+		B6612A381D646DAD0044D0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6612A441D6474E20044D0F0 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		B6612A451D6474E20044D0F0 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		B6612A461D6474E20044D0F0 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		B67760B91D6AE8850029E3BB /* PhoneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneTableViewController.h; sourceTree = "<group>"; };
+		B67760BA1D6AE8850029E3BB /* PhoneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneTableViewController.m; sourceTree = "<group>"; };
+		B67760BB1D6AE8850029E3BB /* PhoneTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneTableViewController.xib; sourceTree = "<group>"; };
+		B67760C11D6B34420029E3BB /* HelpDeskNumber_SampleJSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelpDeskNumber_SampleJSON.txt; sourceTree = "<group>"; };
+		B67A4D131D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-gfx_one_helpdesk_text.png"; sourceTree = "<group>"; };
+		B67A4D141D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-gfx_one_helpdesk.png"; sourceTree = "<group>"; };
+		B67A4D151D65A0BC007F575F /* APP-1_helpdesk-icon_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-icon_alert.png"; sourceTree = "<group>"; };
+		B67A4D161D65A0BC007F575F /* APP-1_helpdesk-icon_phone_act.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-icon_phone_act.png"; sourceTree = "<group>"; };
+		B67A4D171D65A0BC007F575F /* APP-1_helpdesk-icon_phone_dis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-icon_phone_dis.png"; sourceTree = "<group>"; };
+		B67A4D181D65A0BC007F575F /* APP-1_helpdesk-icon_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-icon_settings.png"; sourceTree = "<group>"; };
+		B67A4D191D65A0BC007F575F /* APP-1_helpdesk-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-logo.png"; sourceTree = "<group>"; };
+		B67A4D1A1D65A0BC007F575F /* APP-1_helpdesk-splash_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-splash_640x1136.png"; sourceTree = "<group>"; };
+		B67A4D1B1D65A0BC007F575F /* APP-1_helpdesk-splash_1136x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP-1_helpdesk-splash_1136x1136.png"; sourceTree = "<group>"; };
+		B68478FD1D6705A5000FFBDA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B68478FE1D6705A5000FFBDA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B68478FF1D6705A5000FFBDA /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B6BF8EC21D65D27F00AF67EE /* DirectDialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectDialViewController.h; sourceTree = "<group>"; };
+		B6BF8EC31D65D27F00AF67EE /* DirectDialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectDialViewController.m; sourceTree = "<group>"; };
+		B6BF8EC41D65D27F00AF67EE /* DirectDialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectDialViewController.xib; sourceTree = "<group>"; };
+		B6BF8EC71D65E26A00AF67EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6612A0B1D646DAC0044D0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF8EC81D65E26A00AF67EE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6612A241D646DAD0044D0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6612A2F1D646DAD0044D0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCE56E41D6D9C5600771616 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE56E51D6D9C5600771616 /* MMDrawerBarButtonItem.h */,
+				7FCE56E61D6D9C5600771616 /* MMDrawerBarButtonItem.m */,
+				7FCE56E71D6D9C5600771616 /* MMDrawerController+Subclass.h */,
+				7FCE56E81D6D9C5600771616 /* MMDrawerController.h */,
+				7FCE56E91D6D9C5600771616 /* MMDrawerController.m */,
+				7FCE56EA1D6D9C5600771616 /* MMDrawerVisualState.h */,
+				7FCE56EB1D6D9C5600771616 /* MMDrawerVisualState.m */,
+				7FCE56EC1D6D9C5600771616 /* UIViewController+MMDrawerController.h */,
+				7FCE56ED1D6D9C5600771616 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		B6612A051D646DAC0044D0F0 = {
+			isa = PBXGroup;
+			children = (
+				7FCE56E41D6D9C5600771616 /* MMDrawerController */,
+				B6612A101D646DAC0044D0F0 /* OneHelpDesk */,
+				B6BF8EC71D65E26A00AF67EE /* CoreLocation.framework */,
+				B6612A2A1D646DAD0044D0F0 /* OneHelpDeskTests */,
+				B6612A351D646DAD0044D0F0 /* OneHelpDeskUITests */,
+				B6612A0F1D646DAC0044D0F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6612A0F1D646DAC0044D0F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6612A0E1D646DAC0044D0F0 /* OneHelpDesk.app */,
+				B6612A271D646DAD0044D0F0 /* OneHelpDeskTests.xctest */,
+				B6612A321D646DAD0044D0F0 /* OneHelpDeskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6612A101D646DAC0044D0F0 /* OneHelpDesk */ = {
+			isa = PBXGroup;
+			children = (
+				B6612A141D646DAC0044D0F0 /* AppDelegate.h */,
+				B6612A151D646DAC0044D0F0 /* AppDelegate.m */,
+				B6612A441D6474E20044D0F0 /* HomeScreenViewController.h */,
+				B6612A451D6474E20044D0F0 /* HomeScreenViewController.m */,
+				B6612A461D6474E20044D0F0 /* HomeScreenViewController.xib */,
+				B6BF8EC21D65D27F00AF67EE /* DirectDialViewController.h */,
+				B6BF8EC31D65D27F00AF67EE /* DirectDialViewController.m */,
+				B6BF8EC41D65D27F00AF67EE /* DirectDialViewController.xib */,
+				B68478FD1D6705A5000FFBDA /* SettingsViewController.h */,
+				B68478FE1D6705A5000FFBDA /* SettingsViewController.m */,
+				B68478FF1D6705A5000FFBDA /* SettingsViewController.xib */,
+				B67760B91D6AE8850029E3BB /* PhoneTableViewController.h */,
+				B67760BA1D6AE8850029E3BB /* PhoneTableViewController.m */,
+				B67760BB1D6AE8850029E3BB /* PhoneTableViewController.xib */,
+				B6612A1D1D646DAD0044D0F0 /* Assets.xcassets */,
+				B6612A221D646DAD0044D0F0 /* Info.plist */,
+				B67760BE1D6B2D530029E3BB /* DataSource */,
+				B67A4D121D65A070007F575F /* Images */,
+				B6612A111D646DAC0044D0F0 /* Supporting Files */,
+				B620CBE41D65B38A00A321E8 /* LaunchScreen.xib */,
+			);
+			path = OneHelpDesk;
+			sourceTree = "<group>";
+		};
+		B6612A111D646DAC0044D0F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6612A121D646DAC0044D0F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6612A2A1D646DAD0044D0F0 /* OneHelpDeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6612A2B1D646DAD0044D0F0 /* OneHelpDeskTests.m */,
+				B6612A2D1D646DAD0044D0F0 /* Info.plist */,
+			);
+			path = OneHelpDeskTests;
+			sourceTree = "<group>";
+		};
+		B6612A351D646DAD0044D0F0 /* OneHelpDeskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6612A361D646DAD0044D0F0 /* OneHelpDeskUITests.m */,
+				B6612A381D646DAD0044D0F0 /* Info.plist */,
+			);
+			path = OneHelpDeskUITests;
+			sourceTree = "<group>";
+		};
+		B67760BE1D6B2D530029E3BB /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				B67760C11D6B34420029E3BB /* HelpDeskNumber_SampleJSON.txt */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		B67A4D121D65A070007F575F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B67A4D131D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk_text.png */,
+				B67A4D141D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk.png */,
+				B67A4D151D65A0BC007F575F /* APP-1_helpdesk-icon_alert.png */,
+				B67A4D161D65A0BC007F575F /* APP-1_helpdesk-icon_phone_act.png */,
+				B67A4D171D65A0BC007F575F /* APP-1_helpdesk-icon_phone_dis.png */,
+				B67A4D181D65A0BC007F575F /* APP-1_helpdesk-icon_settings.png */,
+				B67A4D191D65A0BC007F575F /* APP-1_helpdesk-logo.png */,
+				B67A4D1A1D65A0BC007F575F /* APP-1_helpdesk-splash_640x1136.png */,
+				B67A4D1B1D65A0BC007F575F /* APP-1_helpdesk-splash_1136x1136.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6612A0D1D646DAC0044D0F0 /* OneHelpDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6612A3B1D646DAD0044D0F0 /* Build configuration list for PBXNativeTarget "OneHelpDesk" */;
+			buildPhases = (
+				B6612A0A1D646DAC0044D0F0 /* Sources */,
+				B6612A0B1D646DAC0044D0F0 /* Frameworks */,
+				B6612A0C1D646DAC0044D0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneHelpDesk;
+			productName = OneHelpDesk;
+			productReference = B6612A0E1D646DAC0044D0F0 /* OneHelpDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6612A261D646DAD0044D0F0 /* OneHelpDeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6612A3E1D646DAD0044D0F0 /* Build configuration list for PBXNativeTarget "OneHelpDeskTests" */;
+			buildPhases = (
+				B6612A231D646DAD0044D0F0 /* Sources */,
+				B6612A241D646DAD0044D0F0 /* Frameworks */,
+				B6612A251D646DAD0044D0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6612A291D646DAD0044D0F0 /* PBXTargetDependency */,
+			);
+			name = OneHelpDeskTests;
+			productName = OneHelpDeskTests;
+			productReference = B6612A271D646DAD0044D0F0 /* OneHelpDeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6612A311D646DAD0044D0F0 /* OneHelpDeskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6612A411D646DAD0044D0F0 /* Build configuration list for PBXNativeTarget "OneHelpDeskUITests" */;
+			buildPhases = (
+				B6612A2E1D646DAD0044D0F0 /* Sources */,
+				B6612A2F1D646DAD0044D0F0 /* Frameworks */,
+				B6612A301D646DAD0044D0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6612A341D646DAD0044D0F0 /* PBXTargetDependency */,
+			);
+			name = OneHelpDeskUITests;
+			productName = OneHelpDeskUITests;
+			productReference = B6612A321D646DAD0044D0F0 /* OneHelpDeskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6612A061D646DAC0044D0F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TCSL;
+				TargetAttributes = {
+					B6612A0D1D646DAC0044D0F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6ZF9TD7CTE;
+					};
+					B6612A261D646DAD0044D0F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B6612A0D1D646DAC0044D0F0;
+					};
+					B6612A311D646DAD0044D0F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B6612A0D1D646DAC0044D0F0;
+					};
+				};
+			};
+			buildConfigurationList = B6612A091D646DAC0044D0F0 /* Build configuration list for PBXProject "OneHelpDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6612A051D646DAC0044D0F0;
+			productRefGroup = B6612A0F1D646DAC0044D0F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6612A0D1D646DAC0044D0F0 /* OneHelpDesk */,
+				B6612A261D646DAD0044D0F0 /* OneHelpDeskTests */,
+				B6612A311D646DAD0044D0F0 /* OneHelpDeskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6612A0C1D646DAC0044D0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6612A1E1D646DAD0044D0F0 /* Assets.xcassets in Resources */,
+				B67A4D231D65A0BC007F575F /* APP-1_helpdesk-splash_640x1136.png in Resources */,
+				B67A4D241D65A0BC007F575F /* APP-1_helpdesk-splash_1136x1136.png in Resources */,
+				B67A4D201D65A0BC007F575F /* APP-1_helpdesk-icon_phone_dis.png in Resources */,
+				B620CBE51D65B38A00A321E8 /* LaunchScreen.xib in Resources */,
+				B68479011D6705A5000FFBDA /* SettingsViewController.xib in Resources */,
+				B6BF8EC61D65D27F00AF67EE /* DirectDialViewController.xib in Resources */,
+				B67760BD1D6AE8850029E3BB /* PhoneTableViewController.xib in Resources */,
+				B6612A481D6474E20044D0F0 /* HomeScreenViewController.xib in Resources */,
+				B67A4D1F1D65A0BC007F575F /* APP-1_helpdesk-icon_phone_act.png in Resources */,
+				B67A4D1E1D65A0BC007F575F /* APP-1_helpdesk-icon_alert.png in Resources */,
+				B67A4D1D1D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk.png in Resources */,
+				B67A4D211D65A0BC007F575F /* APP-1_helpdesk-icon_settings.png in Resources */,
+				B67A4D1C1D65A0BC007F575F /* APP-1_helpdesk-gfx_one_helpdesk_text.png in Resources */,
+				B67A4D221D65A0BC007F575F /* APP-1_helpdesk-logo.png in Resources */,
+				B67760C21D6B34420029E3BB /* HelpDeskNumber_SampleJSON.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6612A251D646DAD0044D0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6612A301D646DAD0044D0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6612A0A1D646DAC0044D0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6612A471D6474E20044D0F0 /* HomeScreenViewController.m in Sources */,
+				B6BF8EC51D65D27F00AF67EE /* DirectDialViewController.m in Sources */,
+				7FCE56EF1D6D9C5600771616 /* MMDrawerController.m in Sources */,
+				7FCE56F11D6D9C5600771616 /* UIViewController+MMDrawerController.m in Sources */,
+				7FCE56F01D6D9C5600771616 /* MMDrawerVisualState.m in Sources */,
+				B67760BC1D6AE8850029E3BB /* PhoneTableViewController.m in Sources */,
+				B68479001D6705A5000FFBDA /* SettingsViewController.m in Sources */,
+				B6612A161D646DAC0044D0F0 /* AppDelegate.m in Sources */,
+				B6612A131D646DAC0044D0F0 /* main.m in Sources */,
+				7FCE56EE1D6D9C5600771616 /* MMDrawerBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6612A231D646DAD0044D0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6612A2C1D646DAD0044D0F0 /* OneHelpDeskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6612A2E1D646DAD0044D0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6612A371D646DAD0044D0F0 /* OneHelpDeskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6612A291D646DAD0044D0F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6612A0D1D646DAC0044D0F0 /* OneHelpDesk */;
+			targetProxy = B6612A281D646DAD0044D0F0 /* PBXContainerItemProxy */;
+		};
+		B6612A341D646DAD0044D0F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6612A0D1D646DAC0044D0F0 /* OneHelpDesk */;
+			targetProxy = B6612A331D646DAD0044D0F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6612A391D646DAD0044D0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aniruddha Kelkar (KNT2D7V5WS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aniruddha Kelkar (KNT2D7V5WS)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3f4b9acf-1bde-4ff1-aa67-49a0265b7a98";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6612A3A1D646DAD0044D0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aniruddha Kelkar (KNT2D7V5WS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aniruddha Kelkar (KNT2D7V5WS)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "3f4b9acf-1bde-4ff1-aa67-49a0265b7a98";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6612A3C1D646DAD0044D0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OneHelpDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobility.pune.SartoriusOneHelpDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3f4b9acf-1bde-4ff1-aa67-49a0265b7a98";
+			};
+			name = Debug;
+		};
+		B6612A3D1D646DAD0044D0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OneHelpDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobility.pune.SartoriusOneHelpDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3f4b9acf-1bde-4ff1-aa67-49a0265b7a98";
+			};
+			name = Release;
+		};
+		B6612A3F1D646DAD0044D0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneHelpDeskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.OneHelpDeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneHelpDesk.app/OneHelpDesk";
+			};
+			name = Debug;
+		};
+		B6612A401D646DAD0044D0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneHelpDeskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.OneHelpDeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneHelpDesk.app/OneHelpDesk";
+			};
+			name = Release;
+		};
+		B6612A421D646DAD0044D0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneHelpDeskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.OneHelpDeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneHelpDesk;
+			};
+			name = Debug;
+		};
+		B6612A431D646DAD0044D0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneHelpDeskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.mobility.OneHelpDeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneHelpDesk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6612A091D646DAC0044D0F0 /* Build configuration list for PBXProject "OneHelpDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6612A391D646DAD0044D0F0 /* Debug */,
+				B6612A3A1D646DAD0044D0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6612A3B1D646DAD0044D0F0 /* Build configuration list for PBXNativeTarget "OneHelpDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6612A3C1D646DAD0044D0F0 /* Debug */,
+				B6612A3D1D646DAD0044D0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6612A3E1D646DAD0044D0F0 /* Build configuration list for PBXNativeTarget "OneHelpDeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6612A3F1D646DAD0044D0F0 /* Debug */,
+				B6612A401D646DAD0044D0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6612A411D646DAD0044D0F0 /* Build configuration list for PBXNativeTarget "OneHelpDeskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6612A421D646DAD0044D0F0 /* Debug */,
+				B6612A431D646DAD0044D0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6612A061D646DAC0044D0F0 /* Project object */;
+}
